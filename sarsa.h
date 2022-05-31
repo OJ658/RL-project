@@ -7,7 +7,6 @@
 #include <math.h>
 
 double** Qmatrix_sarsa;
-//int** reward;
 envOutput stepOut;
 envOutput finalOut;
 int current_state;
