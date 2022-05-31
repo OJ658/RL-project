@@ -8,7 +8,6 @@
 
 double** Qmatrix_1;
 double** Qmatrix_2;
-int** reward;
 envOutput stepOut;
 envOutput finalOut;
 int current_state;
