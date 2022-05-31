@@ -2,12 +2,7 @@ CC = gcc
 CFLAGS = -Wall -Werror -lm -g
 INC = -Iinclude/
 SRC = ~/Bureau/IN104/CMaze/CMaze-main/
-#DPE = mazeEnv.h
-#$(info EXEC before = $(EXEC))
-#$(info EXEC after = $(EXEC))
-#$(info DIRECTORY before = $(DIRECTORY))
-DIRECTORY = ~/Bureau/IN104/CMaze/CMaze-main # Make sure you're in the right directory!
-#$(info DIRECTORY after = $(DIRECTORY)) 
+DIRECTORY = ~/Bureau/IN104/CMaze/CMaze-main 
 all : dfs mazeEnv functions
 
 dfs.o : $(SRC)dfs.c $(SRC)mazeEnv.h $(SRC)q_learning.h $(SRC)sarsa.h $(SRC)double_q_learning.h
